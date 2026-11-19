@@ -1,0 +1,9 @@
+﻿{
+  "mcpServers": {
+    "local-moss": {
+      "command": "C:\\path\\to\\MOSS-MCP\\.venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\MOSS-MCP\\moss_image.py", "mcp"],
+      "env": {"MOSS_GPU_UUID": "GPU-your-3060-uuid"}
+    }
+  }
+}
